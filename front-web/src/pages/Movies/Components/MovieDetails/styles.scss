@@ -1,0 +1,26 @@
+.movie-details-main{
+    margin: 40px 135px 50px 135px;
+}
+.movie-details-list{
+    margin-top: 15px;
+    padding: 15px 17px  ;
+    background: #6C6C6C;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.movie-details-list-default{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color: #FFF; 
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+@media(max-width:576px){
+    .movie-details-main{
+        margin: 10px !important;
+    }
+}

@@ -1,0 +1,27 @@
+
+.select-container{
+    width: 250px;
+    height: 50px;
+    .movie-genre-select__control{
+        border-radius: 20px;
+        border-color: #FFF !important;
+        background-color: #6C6C6C;
+       }
+    
+    .movie-genre-select__indicator-separator{
+        display: none;
+    }
+    .movie-genre-select__dropdown-indicator{
+        color: #FFF;
+    }
+    .movie-genre-select__clear-indicator{
+        color: #FFF;
+    }
+    .movie-genre-select__placeholder{
+        color: #FFF;  
+    }
+    .movie-genre-select__single-value{
+        color: #FFF;
+    }
+}
+

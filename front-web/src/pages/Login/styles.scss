@@ -1,0 +1,40 @@
+.login-main{
+    display: flex;
+    flex-direction: row;
+    background: #525252;   
+    
+}
+.login-main-information{
+    margin-left: 140px;
+    margin-right: 170px;
+}
+.login-main-information-title{
+    margin: 75px 0 20px 0;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 75px;
+    letter-spacing: -0.015em;
+    color: #FFF;
+}
+.login-main-information-subtitle{
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #F2F2F2;
+}
+.login-main-image{
+    margin-top: 70px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+@media(max-width:1200px){
+    .login-main{
+        justify-content: center;
+    }
+    .login-main-information{
+        display: none;
+    }
+}

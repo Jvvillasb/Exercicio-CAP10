@@ -1,0 +1,39 @@
+.movie-review-list-main{
+    margin-bottom: 10px;
+}
+.movie-review-list-info{
+    display: flex;
+    align-items: baseline;
+    padding-left: 15px;
+    
+}
+
+.movie-review-list-name{
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    padding-left: 15px; 
+} 
+.movie-review-list{
+    height: 70px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: justify;
+    background: #6C6C6C;
+    width: 100%;
+}
+.movie-review-list-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color:#9E9E9E;
+    padding-top: 10px;
+    padding-left: 18px;
+    
+}
